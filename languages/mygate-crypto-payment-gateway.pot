@@ -1,0 +1,397 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MyGate Crypto Payment Gateway 2.0.0\n"
+"Report-Msgid-Bugs-To: https://mygate.me/\n"
+"POT-Creation-Date: 2026-08-16 12:55+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: mygate-crypto-payment-gateway\n"
+
+#: includes/integrations/class-mgcpg-gateway.php:39
+msgid "API keys, checkout appearance, and webhook settings are managed on the <a href=\"%s\">MyGate settings page</a>."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-gateway.php:69
+msgid "Awaiting MyGate cryptocurrency payment."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:70
+msgid "Checking payment…"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:170
+msgid "Checkout"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:182
+msgid "Checkout experience"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:141
+msgid "Connect WooCommerce or Easy Digital Downloads to your MyGate account."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:151
+msgid "Connection"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:164
+msgid "Copy"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:166
+msgid "Copy this URL into MyGate → Settings → Webhook → Webhook URL."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-gateway.php:12
+msgid "Decentralized cryptocurrency payments through MyGate."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:190
+msgid "Diagnostics"
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:187
+msgid "Easy Digital Downloads payment data is unavailable."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:239
+msgid "EDD amount or currency mismatch."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:229
+msgid "EDD payment already completed."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:234
+msgid "EDD payment is in a terminal state."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:283
+msgid "EDD payment marked complete."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:206
+msgid "EDD payment method mismatch."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:195 includes/class-mgcpg-webhook.php:201
+msgid "EDD payment not found."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:212
+msgid "EDD payment reference mismatch."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:262
+msgid "EDD payment status could not be updated."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:221
+msgid "EDD transaction replay rejected."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:184
+msgid "Embedded modal"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:185
+msgid "Embedded mode keeps the shopper on your site and opens the MyGate payment page inside a secure overlay. A direct-open fallback is always shown in case a browser blocks embedding."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:210
+msgid "Enable debug logging"
+msgstr ""
+
+#: includes/integrations/class-mgcpg-gateway.php:31
+msgid "Enable MyGate crypto payments"
+msgstr ""
+
+#: includes/integrations/class-mgcpg-gateway.php:29
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:215
+msgid "External service"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:155
+msgid "Get the sk_live_ key from MyGate → Account → API key. The plugin derives the public pk_live_ checkout key automatically and never places the private key in the payment URL."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:32
+msgid "Invalid JSON."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:159
+msgid "Invalid MyGate order."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:182
+msgid "Invalid MyGate payment."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:97
+msgid "Invalid order."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:118 includes/class-mgcpg-embedded.php:123
+msgid "Invalid payment."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:202
+msgid "Last fallback confirmation:"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:195
+msgid "Last webhook:"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:211
+msgid "Logs payment-flow events without storing the API key or webhook secret."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:83 includes/class-mgcpg-settings.php:84 includes/integrations/class-mgcpg-gateway.php:11
+msgid "MyGate"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:153
+msgid "MyGate private API key"
+msgstr ""
+
+#: includes/class-mgcpg-api.php:32
+msgid "MyGate private API key is not configured."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-gateway.php:35
+msgid "MyGate connection"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:140
+msgid "MyGate Crypto Payment Gateway"
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:166 includes/class-mgcpg-embedded.php:197
+msgid "MyGate is not configured correctly."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-edd.php:33
+msgid "MyGate is not configured."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-gateway.php:58
+msgid "MyGate is not configured. Please contact the store administrator."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:47 templates/embedded-checkout.php:28
+msgid "MyGate payment"
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:178 includes/class-mgcpg-webhook.php:271
+msgid "MyGate payment confirmed. Transaction ID: %s"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:217
+msgid "MyGate Privacy Policy"
+msgstr ""
+
+#: includes/class-mgcpg-api.php:83
+msgid "MyGate rejected the status request."
+msgstr ""
+
+#: includes/class-mgcpg-api.php:77
+msgid "MyGate returned an invalid status response."
+msgstr ""
+
+#: includes/class-mgcpg-api.php:72
+msgid "MyGate status check is temporarily unavailable."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:217
+msgid "MyGate Support Terms"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:209
+msgid "MyGate webhooks are the primary confirmation path. If a firewall or CDN blocks an inbound webhook, the plugin also checks MyGate from the WordPress server and can complete the order securely."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:206
+msgid "No fallback confirmation used yet."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:199
+msgid "No webhook received yet."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:179 includes/class-mgcpg-webhook.php:272
+msgid "not provided"
+msgstr ""
+
+#: templates/embedded-checkout.php:37
+msgid "Open payment page directly"
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:71
+msgid "Payment confirmed. Returning to the store…"
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:73
+msgid "Payment detected, but the amount is insufficient."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:175
+msgid "Payment method description"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:178
+msgid "Payment method icon URL"
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:172
+msgid "Payment method name"
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:72
+msgid "Payment received. Waiting for store confirmation…"
+msgstr ""
+
+#: includes/class-mgcpg-api.php:27
+msgid "Payment reference is missing."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:183
+msgid "Redirect to MyGate"
+msgstr ""
+
+#: templates/embedded-checkout.php:22
+msgid "Return to order"
+msgstr ""
+
+#: templates/embedded-checkout.php:19
+msgid "Secure crypto payment"
+msgstr ""
+
+#: templates/embedded-checkout.php:10
+msgid "Secure payment — %s"
+msgstr ""
+
+#: mygate-crypto-payment-gateway.php:73
+msgid "Settings"
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:162
+msgid "This order can no longer be paid automatically."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:192 includes/class-mgcpg-embedded.php:74
+msgid "This payment can no longer be completed automatically."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:216
+msgid "This plugin connects your store to the MyGate payment service at app.mygate.me. Checkout amount, currency, an encrypted order reference, your MyGate account key, and the return URL are sent to MyGate so the payment page can be created and matched to your order. If a webhook is delayed or blocked, the plugin may also query the MyGate API from your WordPress server to verify the payment status. The fallback API request is server-to-server; the normal MyGate checkout URL still contains the MyGate cloud/account key required by the current checkout protocol."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:71
+msgid "Transaction is not completed."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:78
+msgid "Transaction reference could not be decrypted."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:64
+msgid "Transaction reference missing."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-edd.php:74
+msgid "Unable to create the MyGate payment reference."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-edd.php:82 includes/integrations/class-mgcpg-gateway.php:64
+msgid "Unable to create the MyGate payment request."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-edd.php:44
+msgid "Unable to create the payment record."
+msgstr ""
+
+#: includes/integrations/class-mgcpg-gateway.php:53
+msgid "Unable to initialize the MyGate payment."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:209
+msgid "Unknown MyGate payment source."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:145 includes/class-mgcpg-webhook.php:100
+msgid "Unknown payment source."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:159
+msgid "Use the same secret in MyGate → Settings → Webhook."
+msgstr ""
+
+#: templates/embedded-checkout.php:36
+msgid "Waiting for payment confirmation…"
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:29
+msgid "Webhook request reached WordPress."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:157
+msgid "Webhook secret key"
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:40
+msgid "Webhook secret mismatch."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php:161
+msgid "Webhook URL"
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:150
+msgid "WooCommerce amount or currency mismatch."
+msgstr ""
+
+#: includes/class-mgcpg-embedded.php:154 includes/class-mgcpg-embedded.php:93
+msgid "WooCommerce is unavailable."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:161
+msgid "WooCommerce order already paid."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:145
+msgid "WooCommerce order is in a terminal state."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:183
+msgid "WooCommerce order marked paid."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:118
+msgid "WooCommerce order not found."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:123
+msgid "WooCommerce payment method mismatch."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:132
+msgid "WooCommerce payment reference mismatch."
+msgstr ""
+
+#: includes/class-mgcpg-webhook.php:140
+msgid "WooCommerce transaction replay rejected."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php
+msgid "Enter the private MyGate API key that starts with sk_live_."
+msgstr ""
+
+#: includes/class-mgcpg-settings.php
+msgid "The saved MyGate key is a legacy/public key. Replace it with the private sk_live_ API key from MyGate → Account before taking new payments."
+msgstr ""
