@@ -8,11 +8,11 @@ Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-##Accept cryptocurrency payments through MyGate in WooCommerce and Easy Digital Downloads, including WooCommerce Checkout Blocks.
+## Accept cryptocurrency payments through MyGate in WooCommerce and Easy Digital Downloads, including WooCommerce Checkout Blocks.
 
 == Description ==
 
-###MyGate Crypto Payment Gateway connects a WordPress store to the MyGate payment service.
+### MyGate Crypto Payment Gateway connects a WordPress store to the MyGate payment service.
 
 Features:
 
