@@ -2,7 +2,7 @@
 Contributors: mygate
 Tags: woocommerce, easy digital downloads, cryptocurrency, bitcoin, monero
 Requires at least: 6.2
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 2.0.1
 License: GPLv2 or later
