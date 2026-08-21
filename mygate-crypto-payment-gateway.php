@@ -3,7 +3,7 @@
  * Plugin Name: MyGate Crypto Payment Gateway
  * Plugin URI: https://mygate.me/docs/#wordpress
  * Description: A WordPress cryptocurrency payment gateway for WooCommerce and Easy Digital Downloads, with classic and block checkout support.
- * Version: 2.0.0
+ * Version: 2.0.1
  * Requires at least: 6.2
  * Requires PHP: 7.4
  * Author: MyGate
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MGCPG_VERSION', '2.0.0' );
+define( 'MGCPG_VERSION', '2.0.1' );
 define( 'MGCPG_FILE', __FILE__ );
 define( 'MGCPG_PATH', plugin_dir_path( __FILE__ ) );
 define( 'MGCPG_URL', plugin_dir_url( __FILE__ ) );

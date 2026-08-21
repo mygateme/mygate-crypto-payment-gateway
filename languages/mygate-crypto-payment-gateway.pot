@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: MyGate Crypto Payment Gateway 2.0.0\n"
+"Project-Id-Version: MyGate Crypto Payment Gateway 2.0.1\n"
 "Report-Msgid-Bugs-To: https://mygate.me/\n"
-"POT-Creation-Date: 2026-08-16 12:55+0300\n"
+"POT-Creation-Date: 2026-08-20 19:55+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -288,8 +288,8 @@ msgstr ""
 msgid "This payment can no longer be completed automatically."
 msgstr ""
 
-#: includes/class-mgcpg-settings.php:216
-msgid "This plugin connects your store to the MyGate payment service at app.mygate.me. Checkout amount, currency, an encrypted order reference, your MyGate account key, and the return URL are sent to MyGate so the payment page can be created and matched to your order. If a webhook is delayed or blocked, the plugin may also query the MyGate API from your WordPress server to verify the payment status. The fallback API request is server-to-server; the normal MyGate checkout URL still contains the MyGate cloud/account key required by the current checkout protocol."
+#: includes/class-mgcpg-settings.php:272
+msgid "This plugin connects your store to the MyGate payment service at app.mygate.me. When a shopper starts a payment, the plugin sends the checkout amount, currency, an encrypted order reference, your public MyGate checkout key (pk_live_), the return URL, and a short order note to MyGate so the payment page can be created and matched to the local order. The private MyGate API key (sk_live_) remains on the WordPress server and is used only for authenticated server-to-server payment status checks. If a webhook is delayed or blocked, the plugin may query the MyGate API from the WordPress server to verify the exact payment reference and completed transaction status."
 msgstr ""
 
 #: includes/class-mgcpg-webhook.php:71

@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<section class="mgcpg-embedded-modal" role="dialog" aria-modal="true" aria-labelledby="mgcpg-payment-title">
 			<header class="mgcpg-embedded-header">
 				<div>
-					<strong id="mgcpg-payment-title"><?php esc_html_e( 'Secure crypto payment', 'mygate-crypto-payment-gateway' ); ?></strong>
+					<strong id="mgcpg-payment-title">🔒 <?php esc_html_e( 'Secure crypto payment', 'mygate-crypto-payment-gateway' ); ?></strong>
 					<span><?php echo esc_html( $store_name ); ?></span>
 				</div>
 				<a class="mgcpg-close" href="<?php echo esc_url( $return_url ); ?>" aria-label="<?php esc_attr_e( 'Return to order', 'mygate-crypto-payment-gateway' ); ?>">×</a>

@@ -4,7 +4,7 @@ Tags: woocommerce, easy digital downloads, cryptocurrency, bitcoin, monero
 Requires at least: 6.2
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,7 @@ Accept **Bitcoin, Ethereum, Tether USDT, USD Coin USDC, Monero, BNB, XRP, Solana
 
 = Why MyGate? =
 
+* 💼 **No KYC required** — start accepting cryptocurrency payments without a mandatory MyGate identity verification process.
 * 🛒 **WooCommerce ready** — Classic Checkout, Cart & Checkout Blocks, and HPOS support.
 * 🛍️ **Easy Digital Downloads ready** — complete EDD payment gateway integration.
 * 🪙 **Many cryptocurrencies and networks** — including BTC, ETH, USDT, USDC, XMR, BNB, XRP, SOL and more.
@@ -32,6 +33,7 @@ Accept **Bitcoin, Ethereum, Tether USDT, USD Coin USDC, Monero, BNB, XRP, Solana
 * 🛡️ **Webhook + server-side fallback** — payments can still be verified when a webhook is delayed or blocked.
 * 🖥️ **Redirect or embedded checkout** — choose how customers experience the MyGate payment screen.
 * 🌍 **Translation ready** — designed for multilingual WordPress stores.
+* 🇬🇧 **Translated into 43 languages** — helping merchants reach customers around the world.
 * 🔑 **No wallet private keys stored by the plugin.**
 * 🔄 **Legacy MyGate compatibility** for stores upgrading from earlier integrations.
 
@@ -114,11 +116,22 @@ The webhook remains the primary and fastest confirmation path. The plugin also h
 
 No. MyGate is designed around merchant-controlled wallet addresses. Blockchain processing and wallet configuration are handled by the MyGate service.
 
+= Does MyGate require KYC? =
+
+No. MyGate does not require merchants to complete a mandatory KYC verification process to use the standard cryptocurrency payment gateway.
+
+Merchants remain responsible for complying with any laws, tax rules, or regulatory requirements that apply to their business and jurisdiction.
+
 = Does embedded mode require a different webhook? =
 
 No. Embedded and redirect modes use the same MyGate payment flow and webhook endpoint. Embedded mode changes only the shopper-facing presentation.
 
 == Changelog ==
+
+= 2.0.1 =
+* Corrected the External service disclosure for the MyGate public/private API key architecture.
+* Clarified that browser-visible checkout URLs use only the public pk_live_ key while the private sk_live_ key remains server-side.
+* No payment-flow or compatibility changes.
 
 = 2.0.0 =
 * Finalized the 2.0 release after successful WooCommerce Blocks, classic WooCommerce, Easy Digital Downloads, embedded modal, and direct MyGate checkout testing.
